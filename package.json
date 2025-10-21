@@ -2,14 +2,17 @@
   "name": "the-shop-autobody-server",
   "version": "1.0.0",
   "description": "Backend server for The Shop Autobody website.",
-  "main": "./server/server.js",
+  "main": "server/server.js",
   "scripts": {
-    "start": "node ./server/server.js"
+    "start": "node server/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
