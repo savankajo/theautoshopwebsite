@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Shop Autobody | Collision Repair & Paint | Burnaby, BC</title>
+    <meta name="description" content="Professional auto body repair and paint specialists in Burnaby, BC. Call 778-998-1778 or visit us at 5156 Still Creek Ave." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-blue': 'hsl(var(--color-primary) / <alpha-value>)',
+              'brand-dark': 'hsl(var(--color-background) / <alpha-value>)',
+              'brand-gray': 'hsl(var(--color-card) / <alpha-value>)',
+              'brand-light-gray': 'hsl(var(--color-border) / <alpha-value>)',
+              // New dynamic text colors
+              'text-heading': 'hsl(var(--color-text-heading) / <alpha-value>)',
+              'text-body': 'hsl(var(--color-text-body) / <alpha-value>)',
+              'text-muted': 'hsl(var(--color-text-muted) / <alpha-value>)',
+            },
+            fontFamily: {
+              sans: ['var(--font-sans)', 'Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Roboto:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <style>
+      h1, h2, h3, h4, h5, h6 {
+        font-weight: var(--font-weight-heading);
+        text-transform: var(--font-transform-heading);
+      }
+      body {
+        /* Base body styles, can be overridden by utility classes */
+        font-weight: var(--font-weight-body);
+        text-transform: var(--font-transform-body);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-dark text-text-body">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
